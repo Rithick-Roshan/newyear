@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEW YEAR 2024</title>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@500;700&family=Oswald:wght@600&family=Poppins:wght@400;500;600&display=swap');</style>
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -35,5 +34,29 @@
             <span style="--i:3">4</span> 
         </div>
     </div>
+    <h2>HAPPPY NEW YEAR </h2>
+    <div class="glowing">
+        <span style="--i:1"></span>
+        <span style="--i:2"></span>
+        <span style="--i:3"></span>
+    </div>
+    <div class="glowing">
+        <span style="--i:1"></span>
+        <span style="--i:2"></span>
+        <span style="--i:3"></span>
+    </div>
+    <div class="glowing">
+        <span style="--i:1"></span>
+        <span style="--i:2"></span>
+        <span style="--i:3"></span>
+    </div>
+    <script>
+        let h2=document.querySelector('h2');
+        let container=document.querySelector('.container');
+        h2.onclick=()=>{
+            container.classList.toggle('newyear');
+            h2.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
